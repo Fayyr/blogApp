@@ -5,7 +5,7 @@ var express = require("express"),
     expressSanitizer = require("express-sanitizer"),
     methodOverride = require('method-override');
     
-mongoose.connect('mongodb+srv://patushir:fireftw69@cluster0.gzxho.mongodb.net/<dbname>?retryWrites=true&w=majority', {
+mongoose.connect('mongodb+srv://patushir:<okgitnotgonnaexposemypassword>@cluster0.gzxho.mongodb.net/<dbname>?retryWrites=true&w=majority', {
 	useNewUrlParser: true,
 	useCreateIndex: true
 }).then(() => {
